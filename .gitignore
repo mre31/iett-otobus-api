@@ -1,0 +1,21 @@
+# Node.js bağımlılıkları
+node_modules/
+
+# Ortam değişkenleri
+.env
+
+# Log dosyaları
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Derleme dizinleri
+/dist
+/build
+data/
+# Geçici dosyalar
+.DS_Store
+.tmp
+.temp
