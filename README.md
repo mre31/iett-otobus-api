@@ -4,7 +4,7 @@ Bu proje, İstanbul'daki İETT otobüslerini hat bazlı olarak anlık takip etme
 
 ## Genel Bakış
 
-Uygulama, kullanıcıdan bir İETT hat kodu alarak İBB'nin açık veri servislerinden ilgili otobüslerin anlık konumlarını çeker. Ardından, bu otobüslerin kullandığı güzergah bilgilerini `data/hatlar.geojson` dosyasından alarak harita üzerinde gösterir. Kullanıcı, aktif güzergahlar arasından seçim yaparak haritadaki gösterimi filtreleyebilir.
+Uygulama, kullanıcıdan bir İETT hat kodu alarak İBB'nin açık veri servislerinden ilgili otobüslerin anlık konumlarını çeker. Ardından, bu otobüslerin kullandığı güzergah bilgilerini `data/hatlar.geojson` dosyasından alarak harita üzerinde gösterir. Güzergah dosyasının `https://data.ibb.gov.tr/dataset/b48d2095-851c-413c-8d36-87d2310a22b5/resource/4ccb4d29-c2b6-414a-b324-d2c9962b18e2/download/iett-hat-guzergahlar.geojson` adresinden indirilmesi gerekmektedir. data/ klasörü oluşturup içerisine hatlar.geojson olarak kaydedin. Kullanıcı, aktif güzergahlar arasından seçim yaparak haritadaki gösterimi filtreleyebilir.
 
 ## Kullanılan Teknolojiler
 
